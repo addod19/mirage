@@ -18,13 +18,17 @@ html {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
 }
 
+.header,
+.posts-container,
+.toolbox {
+  display: flex;
+  flex-direction: row;
+}
 .btn {
   background-color: #41331c;
   padding: 1rem 2rem;
@@ -51,8 +55,6 @@ html {
 }
 
 .posts-container {
-  display: flex;
-  flex-direction: row;
   align-items: flex-start;
   flex-wrap: wrap;
 }
@@ -80,8 +82,6 @@ html {
 }
 
 .toolbox {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 5px 0;
