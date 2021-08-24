@@ -1,4 +1,4 @@
-import { createServer } from 'miragejs';
+import { createServer, Model } from 'miragejs';
 
 export function makeServer() {
   let server = createServer({
