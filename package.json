@@ -34,5 +34,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "miragejs": "^0.1.41",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "react-toastify": "^7.0.4",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
   }
 }

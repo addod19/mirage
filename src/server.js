@@ -1,6 +1,6 @@
 import { createServer, Model } from 'miragejs';
 
-export function makeServer() {
+export function makeServer({ environment = 'test' } = {}) {
   let server = createServer({
     environment,
     models: {
